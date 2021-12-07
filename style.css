@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+.header {
+  background-color: rgba(78, 105, 255, 0.918);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Logo {
+  color: rgb(253, 250, 253);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-left: 5%;
+}
+
+.link-logo {
+}
+
+.navbar {
+  margin-right: 5%;
+}
+
+.nav-button {
+  padding: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(233, 229, 233);
+  border-radius: 10px;
+}
+.nav-button:hover {
+  color: rgb(255, 255, 255);
+  transition: 500ms;
+  background-color: rgba(0, 0, 0, 0.171);
+}
+.nav-button-p {
+  padding: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgb(0, 119, 255);
+  border: solid 2px;
+  border-color: white;
+}
+.nav-button-p:hover {
+  color: rgb(255, 255, 255);
+  transition: 500ms;
+  background-color: rgb(74, 146, 255);
+}
+/*HEADER-FECHA*/
+/*CONTEUDO*/
+body {
+  background-image: url(img/espaço2.jpg);
+  background-repeat: no-repeat;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+.container-2 {
+  background-color: rgb(78, 105, 255);
+  padding: 20px;
+  margin: auto;
+  margin-top: 1%;
+}
+.container-3 {
+  background-color: rgb(236, 237, 245);
+  padding: 20px;
+  margin: auto;
+  position: relative;
+}
+.content-bem-vindo {
+  align-items: center;
+  margin-bottom: 20%;
+  margin-top: 20%;
+}
+.content {
+  background-color: rgba(156, 156, 156, 0.158);
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-port {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+.content-port {
+  background-color: rgba(156, 156, 156, 0.158);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.botao-projeto {
+  padding: 10px;
+  background-color: rgb(22, 112, 0);
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+  color: rgb(236, 237, 245);
+}
+
+.botao-projeto:hover {
+  background-color: rgb(80, 160, 0);
+  transition: 500ms;
+}
+
+.botoes-projeto {
+  padding: 15px;
+}
+
+.content-2 {
+  width: 70%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 10%;
+}
+
+.content-2-img {
+  width: 100px;
+  display: auto;
+  margin: auto;
+  margin-top: 5%;
+  padding: 5px;
+  background-color: rgba(37, 37, 37, 0.171);
+  border-radius: 60px;
+}
+
+.content-2-img-flex {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.content-3 {
+  width: 70%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 10%;
+}
+h1 {
+  max-width: 500px;
+  color: rgb(233, 229, 233);
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  padding: 0;
+  text-shadow: rgba(0, 0, 0, 0.164) 0.1em 0.1em 0.2em;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: rgb(233, 229, 233);
+}
+
+.h1-content-2 {
+  max-width: 500px;
+  color: rgb(243, 243, 243);
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  padding: 0;
+  text-shadow: rgba(0, 0, 0, 0.164) 0.1em 0.1em 0.2em;
+}
+
+.p-content-2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: rgb(243, 243, 243);
+}
+.h1-content-3 {
+  max-width: 500px;
+  color: rgb(43, 43, 43);
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  padding: 0;
+  text-shadow: rgba(0, 0, 0, 0.164) 0.1em 0.1em 0.2em;
+}
+
+.p-content-3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: rgb(43, 43, 43);
+  margin-bottom: 20px;
+}
+
+.button-project {
+  padding: 10px;
+  background-color: rgb(57, 126, 255);
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(233, 229, 233);
+  border-radius: 10px;
+}
+.button-project:hover {
+  transition: 500ms;
+  background-color: rgb(102, 156, 255);
+  color: white;
+}
+.img-content-3 {
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  min-width: 150px;
+}
+
+.lottie-1 {
+  max-width: 400px;
+}
+
+.perfil {
+}
+
+.foto-perfil {
+  position: relative;
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 20px;
+  box-shadow: inset 0 0 1em rgba(0, 0, 0, 0.329), 0 0 1em rgba(0, 0, 0, 0.411);
+}
+/*CONTEUDO-FECHA*/
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: grid;
+    align-items: center;
+    margin: auto;
+    position: relative;
+  }
+  p {
+    max-width: 500px;
+  }
+
+  .lottie-1 {
+    width: 20%;
+    padding: 0px;
+  }
+
+  .container {
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+  .foto-perfil {
+    padding: 0px;
+    margin: auto;
+    display: block;
+  }
+
+  .perfil-text {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .header {
+    background-color: rgba(78, 105, 255, 0.918);
+    padding: 15px;
+    align-items: center;
+  }
+  .navbar {
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  .h1-content-2 {
+    font-size: 24px;
+  }
+
+  .botao-projeto {
+  }
+}
